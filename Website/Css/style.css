@@ -1,0 +1,46 @@
+body {
+    background-color: #EEE4F6;
+    margin-left: 12%;
+    font: 'Helvetica';
+  }
+p {
+  max-width: 1110px;
+  font-size: 22px;
+  line-height: 1.5;
+  }
+.ARlist {
+  border: 5px solid #EEE4F6;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  background: white;
+  list-style-type: none;
+}
+.Extra {
+  font-size: 18px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #a464da;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
